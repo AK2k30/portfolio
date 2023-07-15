@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKASH | Music streaming website</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+    <!--favicon-img-->
+    <link rel="icon" type="image/png" href="images/ak.jpg">
+    <!--favicon-img-->
+
+    <link rel="stylesheet" href="css/index.css">
+
+    <style>
+        div.scroll-container {
+            background-color: #333;
+            overflow: auto;
+            white-space: nowrap;
+            padding: 10px;
+        }
+
+        div.scroll-container img {
+            padding: 10px;
+        }
+
+        .pdf-container {
+            position: relative;
+            padding-bottom: 75%;
+            height: 0;
+            overflow: hidden;
+            margin: 0 auto;
+            max-width: 100%;
+        }
+
+        .pdf-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        @media (max-width: 768px) {
+            .pdf-container {
+                padding-bottom: 120%;
+            }
+        }
+
+        .video-container {
+            max-width: 800px;
+            margin-top: 100%;
+            padding-top: 10%;
+            margin: 0 auto;
+        }
+
+        .video-container video {
+            display: block;
+            width: 100%;
+            height: auto;
+            border: 10px double rgb(22, 39, 225);
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(59, 24, 232, 0.3);
+        }
+
+        .para a.demo-link {
+            text-decoration: underline;
+            color: #3366cc;
+            /* Change color to your desired value */
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <main id="blog-single">
+
+
+        <!-- CUSTOM CURSOR -->
+        <div class="cursor scale"></div>
+        <div class="cursor-two scale"></div>
+        <!-- CUSTOM CURSOR -->
+
+        <!-- PRELOADER -->
+        <div id="preloader">
+            <div class="p">
+                <!-- <img src="images/headphone.png" alt="headphone"> -->
+            </div>
+            <div class="p">Music streaming project Loading....</div>
+        </div>
+        <!-- PRELOADER -->
+
+
+        <div id="blog-single-content">
+
+            <!-- NAVIGATION -->
+            <div class="navigation">
+                <div class="logo hover ">
+                    <a href="index-one.html" class="text">AKASH SINGH</a>
+                </div>
+                <div class="menu-bar hover ">
+                    <div class="menu-bar-name text">
+                        Menu
+                    </div>
+                    <div class="menu-bar-lines text">
+                        <div class="menu-bar-line"></div>
+                        <div class="menu-bar-line"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- NAVIGATION -->
+
+
+
+            <!-- HEADING -->
+            <div class="heading">
+                <div class="text">
+                    Music streaming website project
+                </div>
+            </div>
+
+            <!-- HEADING -->
+
+            <div class="center">
+
+
+                <!-- BLOG IMG -->
+                <div class="blog-img img">
+                    <div class="scroll-container">
+                        <img src="images/music2.png" alt="Forest" style="max-inline-size: 100%;
+                block-size: auto;">
+                        <img src="images/music3.png" alt="Forest" style="max-inline-size: 100%;
+                block-size: auto;">
+                        <img src="images/music4.png" alt="Forest" style="max-inline-size: 100%;
+                block-size: auto;">
+                        <img src="images/music1.png" alt="Forest" style="max-inline-size: 100%;
+                block-size: auto;">
+                    </div>
+                </div>
+                <!-- BLOG IMG -->
+
+
+
+                <div class="center-para">
+
+                    <!-- BLOG TEXT -->
+                    <div class="blog-text">
+
+
+                        <!-- BLOG INFO -->
+
+                        <br>
+
+                        <div class="blog-heading text-scroll">
+                            Short introduction about this project
+                        </div>
+
+                        <!-- BLOG HEADING -->
+
+                        <br>
+
+                        <div class="para text-scroll italic ">
+                            <a href="https://musiacl-webapp-in-django.on.drv.tw/www.musical.com/" class="demo-link">Click
+                                to see demo of project</a>
+                        </div>
+
+
+                        <!-- PARAGRAPH -->
+                        <p class="para text-scroll" style="text-align:left">
+                            - Music streaming website project built using Django and other tools.
+                            <br>
+                            <br>
+                            - Django used as the backend framework for handling user authentication, database management, and session handling.
+                            <br>
+                            <br>
+                            - Utilizes Django's ORM (Object-Relational Mapping) for interacting with the database and storing music-related data securely.
+                            <br>
+                            <br>
+                            - Integrates third-party APIs for features like music recommendations, artist information, and social sharing.
+                            <br>
+                            <br>
+                            - Frontend development done using HTML, CSS, JavaScript, Bootstrap, jQuery to create an interactive and user-friendly interface.
+                            <br>
+                            <br>
+                            - Implements user authentication and authorization to ensure secure access to personalized features and content.
+                            <br>
+                            <br>
+                            - Enables music playback with features like play, pause, skip, and volume control.
+                            <br>
+                            <br>
+                            - Implements a backend admin panel for managing music library, user accounts, and site settings.
+                            <br>
+                            <br>
+                            - Supports playlist creation and management, allowing users to curate their own music collections.
+                            <br>
+                            <br>
+                            - Seamless and interactive user experience.
+                        </p>
+
+                        <p class="para text-scroll" style="text-align:left">
+                            <b>Skills:</b>
+                            <br>
+                            - Django
+                            <br>
+                            - HTML
+                            <br>
+                            - jQuery
+                            <br>
+                            - Django ORM
+                            <br>
+                            - Third-Party APIs
+                            <br>
+                            - Bootstrap
+                            <br>
+                            - User Authentication and Authorization
+                            <br>
+                            - Search Functionality
+                            <br>
+                            - Backend Admin Panel
+                        </p>
+
+                        <br>
+
+
+                        <div class="para text-scroll italic ">
+                            <i>"Video demo of project"</i>
+                        </div>
+
+
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="project-info video-container">
+                                    <video class="img-fluid" autoplay loop muted width="100%" height="auto">
+                                        <source src="video/song part 1.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <div class="para text-scroll">
+                            Feel free to reach out to me for any inquiries or collaboration opportunities. I am readily
+                            available and accessible through multiple communication channels, including email and phone.
+                        </div>
+                        <!-- PARAGRAPH -->
+
+
+                        <div class="signature">
+                            <span class="text-scroll"> Akash Singh.</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- BLOG TEXT -->
+
+
+
+
+            </div>
+
+            <!-- HEADPHONE IMG -->
+            <div class="headphone img text">
+                <img src="images/ak.jpg" title="headphone zone" class="text" alt="headphone">
+            </div>
+            <!-- HEADPHONE IMG -->
+
+
+
+            <!-- progress-bar -->
+            <div class="progress-bar-container fade-in">
+                <div class="progressbar"></div>
+            </div>
+            <!-- progress-bar -->
+
+        </div>
+
+
+
+
+        <!-- NAVIGATION CONTENT -->
+        <div class="navigation-content">
+            <div class="navigation-logo hover opacity">
+                <a href="#" class="text">AKASH SINGH</a>
+            </div>
+            <ul class="navigation-ul">
+                <li><a href="index-one.html" data-text="Home" data-img="#">Home</a></li>
+                <li><a href="blog-single.html" data-text="About" data-img="#">About</a></li>
+                <li><a href="blog-single1.html" data-text="Songs" data-img="#">Project's</a></li>
+                <li><a href="exp.html" data-text="Blogs" data-img="#">Experience</a></li>
+                <li><a href="https://akashprofile.my.canva.site/light-blue-simple-light-app-download-website" data-text="Contact"
+                        data-img="#">Contact</a></li>
+            </ul>
+            <div class="navigation-close hover about-close opacity">
+                <div class="navigation-close-line"></div>
+                <div class="navigation-close-line"></div>
+            </div>
+
+            <div class="project-preview"></div>
+
+
+            <!-- HEADPHONE IMG -->
+            <div class="headphone-navigation opacity">
+                <img src="images/ak.jpg" title="headphone zone" class="text" alt="headphone">
+            </div>
+            <!-- HEADPHONE IMG -->
+
+
+            <!-- SOCIAL MEDIA LINKS -->
+            <div class="social-media-links-navigation">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/akash-singh-306bab229/" class="text hover opacity">LI</a></li>
+                    <li><a href="https://github.com/AK2k30" class="text hover opacity">GIT</a></li>
+                    <li><a href="https://www.instagram.com/__akash._.2k22_/" class="text hover opacity">IG</a></li>
+                </ul>
+            </div>
+            <!-- SOCIAL MEDIA LINKS -->
+
+        </div>
+
+
+
+        <!-- NAVIGATION CONTENT -->
+
+
+
+
+
+    </main>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bez.js"></script>
+    <script src="js/pace.js"></script>
+    <script src="js/index.js"></script>
+
+
+</body>
+
+</html>
